@@ -3,6 +3,7 @@
 // commit to master
 package main
 
+//імпорти
 import (
     "encoding/json"
     "net/http"
@@ -25,3 +26,4 @@ func main() {
     http.HandleFunc("/time", timeHandler)
     http.ListenAndServe(":8795", nil)
 }
+

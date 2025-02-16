@@ -24,4 +24,3 @@ func main() {
 }
 
 //adding commit 1
-//added commit 2

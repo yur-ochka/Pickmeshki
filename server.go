@@ -25,5 +25,3 @@ func main() {
     http.HandleFunc("/time", timeHandler)
     http.ListenAndServe(":8795", nil)
 }
-
-//first commit in unchronological order

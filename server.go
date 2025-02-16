@@ -22,7 +22,10 @@ func timeHandler(w http.ResponseWriter, r *http.Request) {
     json.NewEncoder(w).Encode(response)
 }
 
+
 func main() {
+    // Реєструємо обробник для маршруту "/time", який буде викликати функцію timeHandler
     http.HandleFunc("/time", timeHandler)
+    // Запускаємо HTTP-сервер на порту 8795, який оброблятиме запити
     http.ListenAndServe(":8795", nil)
 }

@@ -1,3 +1,6 @@
+// Go Time Server Lab
+// This is a simple Go server that returns the current time.
+// commit to master
 package main
 
 import (
